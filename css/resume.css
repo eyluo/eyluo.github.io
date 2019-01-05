@@ -24,7 +24,7 @@ h6 {
   font-family: 'Open Sans', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #00406e; 
+  color: #940404; 
   text-align: center; 
 }
 
@@ -59,12 +59,12 @@ h4 {
 }
 
 .list-social-icons a {
-  color: #00406e; 
+  color: #940404; 
   display: inline-block;
   float: none;
 }
   .list-social-icons a:hover {
-    color: #00233b; 
+    color: #d40000; 
   }
   .list-social-icons a .fa-lg {
     font-size: 1.75rem; 
@@ -104,15 +104,15 @@ section.resume-section {
 }
 
 a {
-  color: #00406e; 
+  color: #940404; 
 }
   a:hover, a:focus, a:active {
-    color: #007cd4; 
+    color: #d40000; 
   }
 
 .profile {
   border-radius: 100%;
-  border: 3px solid #00406e;
+  border: 3px solid #940404;
   display: block;
   width: 200px;
   height: auto;
