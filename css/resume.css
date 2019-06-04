@@ -3,10 +3,20 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
+
+/* Use to change the color of the links. */
+:root {
+  --main-highlight-color: #0081bb;
+  --main-hover-color: #00a0d2;
+  --main-dark-bg-color: #212121;
+}
+
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
   color: #4d5155; 
+  /* Use to change the background color. Dark mode is trendy these days. */
+  background-color: var(--main-dark-bg-color);
 }
 
 body {
@@ -24,12 +34,12 @@ h6 {
   font-family: 'Open Sans', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #940404; 
+  color: var(--main-highlight-color); 
   text-align: center; 
 }
 
 h1 {
-  color: #343a40;
+  color: #767D92;
   font-size: 4rem;
   line-height: 3.5rem; 
 }
@@ -59,14 +69,14 @@ h4 {
 }
 
 .list-social-icons a {
-  color: #940404; 
+  color: var(--main-highlight-color);
   display: inline-block;
   float: none;
 }
-  .list-social-icons a:hover {
-    color: #d40000; 
+.list-social-icons a:hover {
+    color: var(--main-hover-color); 
   }
-  .list-social-icons a .fa-lg {
+.list-social-icons a .fa-lg {
     font-size: 1.75rem; 
   }
 
@@ -96,23 +106,36 @@ section.resume-section {
 }
 
 .bg-primary {
-  background-color: #373C42 !important; 
+  background-color: var(--main-dark-bg-color) !important; 
 }
 
 .text-primary {
-  color: #373C42 !important; 
+  color: #ffffff !important; 
+}
+
+.mb-1,
+.mb-2,
+.mb-3,
+.mb-4,
+.mb-5 {
+  color: #767D92;
+}
+
+/* Used to sync background with the inside of the icons. */
+.fa-stack-1x {
+  color: var(--main-dark-bg-color);
 }
 
 a {
-  color: #940404; 
+  color: var(--main-highlight-color); 
 }
   a:hover, a:focus, a:active {
-    color: #d40000; 
+    color: var(--main-hover-color); 
   }
 
 .profile {
   border-radius: 100%;
-  border: 3px solid #940404;
+  border: 3px solid var(--main-highlight-color);
   display: block;
   width: 200px;
   height: auto;
